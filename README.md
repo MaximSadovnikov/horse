@@ -35,11 +35,10 @@
     ```
     java -jar horse-0.0.1-SNAPSHOT.jar
     ```
-Открыть браузер и ввести в адресную строку (можно просто перейти по ссылке):
+Открыть браузер и ввести в адресную строку cледущие ссылки (можно просто перейти по ссылке):
 
-* http://localhost/horse/rest/count?width=10&height=14&start=B1&end=A3 -- для REST endpoint в виде сервлета (Java Servlet)
-
-или 
+* http://localhost/horse/rest/count?width=10&height=14&start=B1&end=A3 -- для REST endpoint в виде сервлета (Java Servlet);
 
 * http://localhost/horse/servlet/count?width=10&height=14&start=B1&end=A3 -- для REST endpoint в виде Spring Controller (RestController)
+
 При вызове их будет выведена 1, так как клетка A3 достижима из положения B1 за один ход.
